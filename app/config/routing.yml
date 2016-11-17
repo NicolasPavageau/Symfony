@@ -1,0 +1,3 @@
+nicolas_platform:
+    resource: "@NicolasPlatformBundle/Resources/config/routing.yml"
+    prefix:   /

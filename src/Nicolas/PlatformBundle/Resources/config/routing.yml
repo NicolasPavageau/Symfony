@@ -1,0 +1,17 @@
+# src/Nicolas/PlatformBundle/Ressources/config/routing.yml
+
+nicolas_platform_home:
+   path:     /platform
+   defaults: { _controller: NicolasPlatformBundle:Advert:index }
+
+nicolas_platform_view:
+   path:     /platform/advert/{id}
+   defaults: { _controller: NicolasPlatformBundle:Advert:view }
+
+nicolas_platform_add:
+   path:     /platform/add
+   defaults: { _controller: NicolasPlatformBundle:Advert:add }
+
+nicolas_platform_view_slug:
+   path:     /platform/{year}/{slug}.{format}
+   defaults: { _controller: NicolasPlatformBundle:Advert:viewSlug }
